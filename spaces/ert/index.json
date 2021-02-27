@@ -1,0 +1,24 @@
+{
+  "name": "Earth-kovan",
+  "network": "42",
+  "symbol": "ERT",
+  "skin": "ert",
+  "strategies": [
+    {
+      "name": "erc20-balance-of",
+      "params": {
+        "address": "0xD7304607c358F2944cEd1d3E6Cfec3833c535524",
+        "symbol": "DOM",
+        "decimals": 18
+      }
+    },
+  ],
+  "members": [
+    "0x394aC673976CE1313FEeeF735354DBfD2739c7dC",
+  ],
+  "filters": {
+    "defaultTab": "all",
+    "minScore": 0,
+    "onlyMembers": true
+  }
+}

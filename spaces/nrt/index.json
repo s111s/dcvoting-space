@@ -1,0 +1,24 @@
+{
+  "name": "Narate-kovan",
+  "network": "42",
+  "symbol": "NRT",
+  "skin": "nrt",
+  "strategies": [
+    {
+      "name": "erc20-balance-of",
+      "params": {
+        "address": "0xAFAbB37C3E80079e9b73Ab6D1f9aB9352479f341",
+        "symbol": "DOM",
+        "decimals": 18
+      }
+    },
+  ],
+  "members": [
+    "0x394aC673976CE1313FEeeF735354DBfD2739c7dC",
+  ],
+  "filters": {
+    "defaultTab": "all",
+    "minScore": 0,
+    "onlyMembers": true
+  }
+}
